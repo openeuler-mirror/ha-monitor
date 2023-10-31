@@ -8,15 +8,21 @@ Software architecture description
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```
+pip install flask flask_sqlalchemy flask_migrate flask_script
+pip install pywebview pyinstaller
+python main.py
+```
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  Complete node authentication for the HA cluster first.
+2.  Run `python main.py` using manager mode.
+
+#### Todo
+
+1. Modify, query, add, and delete commands.
+2. Node authentication in ha-monitor.
 
 #### Contribution
 
